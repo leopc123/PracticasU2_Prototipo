@@ -1,10 +1,10 @@
 <?php
 $servername = "localhost";
-$username = "root";     // Usuario por defecto de XAMPP
-$password = "";         // Déjalo vacío si no pusiste contraseña
-$database = "practicas_db";  // Tu base de datos
+$username = "root";    
+$password = "";         
+$database = "practicas_db";  
 
-// Crear conexión
+// conexión
 $conn = new mysqli($servername, $username, $password, $database);
 
 // Verificar conexión
