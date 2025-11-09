@@ -1,0 +1,73 @@
+/* ---------- ESTILOS GENERALES ---------- */
+body {
+    background-color: #F4F6F8;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* ---------- TARJETA CENTRAL ---------- */
+.contenedor {
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 380px;
+    text-align: center;
+}
+
+/* ---------- TITULO ---------- */
+.contenedor h2 {
+    color: #4F4F4F;
+    margin-bottom: 20px;
+}
+
+/* ---------- CAMPOS DE ENTRADA ---------- */
+input, select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+}
+
+input:focus, select:focus {
+    border-color: #27AE60;
+}
+
+/* ---------- BOTÓN PRINCIPAL ---------- */
+button {
+    background-color: #27AE60;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #219150;
+}
+
+/* ---------- TEXTO PEQUEÑO ---------- */
+.texto-pequeno {
+    margin-top: 15px;
+    font-size: 13px;
+    color: #4F4F4F;
+}
+
+.texto-pequeno a {
+    color: #27AE60;
+    text-decoration: none;
+}
+
+.texto-pequeno a:hover {
+    text-decoration: underline;
+}
